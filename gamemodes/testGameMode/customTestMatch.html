@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mode - Custom Test Match</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+
+<body>
+    
+    <h1>Choose 2 teams:</h1>
+    <div id="CustomTestButtonsPanel">
+        <button id="CustomTestButtons" onclick="playerSelectionPanel()">Player Selection</button>
+        <button id="CustomTestButtons" onclick="changeTeams()">Change Teams</button>
+    </div>
+    <div id="CustomTestMatchPanel">
+        <div id="CustomTestTeamSelection1">
+            <h2>Home Team:</h2>
+            <p id="HomeTeamSelection"></p>
+        </div>
+        <div id="TeamPanel">
+            <ul id="TeamPanelChoices">
+                <li id="AFG">Afghanistan</li>
+                <li id="AUS">Australia</li>
+                <li id="BAN">Bangladesh</li>
+                <li id="ENG">England</li>
+                <li id="IND">India</li>
+                <li id="IRE">Ireland</li>
+                <li id="NZ">New Zealand</li>
+                <li id="PAK">Pakistan</li>
+                <li id="SA">South Africa</li>
+                <li id="SL">Sri Lanka</li>
+                <li id="WI">West Indies</li>
+                <li id="ZIM">Zimbabwe</li>
+            </ul>
+        </div> 
+        <div id="CustomTestTeamSelection2">
+            <h2>Away Team:</h2>
+            <p id="AwayTeamSelection"></p>
+        </div>
+    </div>
+    <a id="tia" href="../testIndex.html">Return to Test Match Main Menu</a>
+    <script src="../../scripts/script.js"></script>
+</body>
+
+</html>
